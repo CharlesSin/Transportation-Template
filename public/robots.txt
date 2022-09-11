@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+sitemap: https://transportation-spa-project.vercel.app/sitemap.xml
