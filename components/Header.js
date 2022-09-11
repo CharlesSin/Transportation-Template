@@ -38,6 +38,8 @@ const Header = ({ headerData, navData }) => {
             src={`${header ? logoImgV2 : logoImgV1}`}
             width={header ? 180 : 212}
             height={50}
+            alt="header image"
+            title="header image"
           />
         </a>
       </Link>

@@ -32,10 +32,6 @@ const Document = () => {
         <meta name="twitter:description" content="" />
         <meta name="twitter:image" content="" />
 
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Framer Motion Project</title>
-
         <link rel="canonical" href="" />
         <link rel="alternate" href="" hreflang="en-us" />
       </Head>

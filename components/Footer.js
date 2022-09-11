@@ -25,11 +25,23 @@ const Footer = ({ footerData }) => {
           variants={footerTruckAnim}
           className="hidden lg:flex absolute -top-24 -left-[6.8%]"
         >
-          <Image src={truckImg} width={430} height={210} />
+          <Image
+            src={truckImg}
+            width={430}
+            height={210}
+            alt="truck image"
+            title="truck image"
+          />
         </motion.div>
         {/* hill image */}
         <motion.div className="hidden lg:flex absolute z-10 top-[22px] left-0">
-          <Image src={hillImg} width={137} height={92} />
+          <Image
+            src={hillImg}
+            width={137}
+            height={92}
+            alt="hill image"
+            title="hill image"
+          />
         </motion.div>
 
         {/* text & form */}
@@ -84,7 +96,13 @@ const Footer = ({ footerData }) => {
           <div className="mb-6 mx-auto lg:mb-0 lg:mx-0">
             <Link href={"/"}>
               <a>
-                <Image src={logo} width={170} height={41} />
+                <Image
+                  src={logo}
+                  width={170}
+                  height={41}
+                  alt="logo image"
+                  title="logo image"
+                />
               </a>
             </Link>
           </div>
