@@ -17,8 +17,7 @@ const Document = () => {
         />
 
         <link rel="shortcut icon" href="/favicon.ico" />
-
-        <meta name="robots" content="noindex,nofollow" />
+        
         <meta
           name="description"
           content="Charles's simple project using Nextjs build animation effect Project by framer montion."
